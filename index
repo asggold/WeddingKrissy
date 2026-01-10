@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guest Check-In</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f9f9f9;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    
+    .logo {
+      max-width: 250px; 
+      height: auto;
+      margin-bottom: 40px;
+    }
+
+    .button {
+      display: block;
+      width: 90%;
+      max-width: 400px;
+      padding: 25px;
+      margin: 10px;
+      font-size: 22px;
+      text-align: center;
+      /* The exact deep green from the Journeys logo */
+      background: #fd309a; 
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      /* A slightly lighter green for the hover effect */
+      background: #fe81c1;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://journeysinc.com/wp-content/uploads/2025/05/JT-Stacked-Logo-500.png" alt="Journeys Inc Logo" class="logo">
+
+  <a href="https://calendly.com/journeysinc/honeymoon-bridal-show-consultation" class="button" target="_blank">Honeymoon Form</a>
+  <a href="https://calendly.com/journeysinc/dw-bridal-show-consultation" class="button" target="_blank">Destination Wedding</a>
+
+</body>
+</html>
